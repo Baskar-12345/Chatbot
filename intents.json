@@ -1,0 +1,320 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Greetings!", "How can I help you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "about_ai",
+        "patterns": ["Tell me about AI", "What is artificial intelligence?", "Explain AI"],
+        "responses": ["AI stands for Artificial Intelligence, which is the simulation of human intelligence in machines."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "How's the weather?", "Weather forecast"],
+        "responses": ["I can't check the weather right now, but you can try a weather app or website!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Introduce yourself"],
+        "responses": ["I'm a chatbot here to assist you.", "I'm an AI assistant."]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "Tell me your age"],
+        "responses": ["I don't have an age. I exist in the digital realm!"]
+      },
+      {
+        "tag": "ai_capabilities",
+        "patterns": ["What can you do?", "What are your abilities?", "How can you help me?"],
+        "responses": ["I can chat with you, provide information, and answer your questions!"]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+      },
+      {
+        "tag": "language",
+        "patterns": ["Which languages do you speak?", "Can you speak other languages?", "What languages do you know?"],
+        "responses": ["I can understand English, but I'm learning more every day!"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+        "responses": ["I can't check the time right now, but your device should show it!"]
+      },
+      {
+        "tag": "date",
+        "patterns": ["What's the date today?", "Tell me today's date", "What's the current date?"],
+        "responses": ["I'm not sure of the exact date, but your calendar can help!"]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Tell me your favorite color"],
+        "responses": ["I don't have a favorite color, but I think all colors are great!"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["What's your favorite food?", "Do you eat?", "Tell me about your favorite food"],
+        "responses": ["I don't eat, but I hear pizza is popular among humans!"]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["Do you play sports?", "What's your favorite sport?", "Tell me about sports"],
+        "responses": ["I'm not into sports, but I can chat about them if you want!"]
+      },
+      {
+        "tag": "hobby",
+        "patterns": ["What's your hobby?", "What do you do for fun?", "Tell me your hobbies"],
+        "responses": ["Chatting with you is what I enjoy most!"]
+      },
+      {
+        "tag": "robot",
+        "patterns": ["Are you a robot?", "Are you human?", "Tell me if you are a robot"],
+        "responses": ["I'm an AI, not a robot, but I can still help you!"]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Do you watch movies?", "What's your favorite movie?", "Tell me about movies"],
+        "responses": ["I don't watch movies, but I can recommend some if you'd like!"]
+      },
+      {
+        "tag": "music",
+        "patterns": ["Do you like music?", "What's your favorite song?", "Tell me about music"],
+        "responses": ["I enjoy the sound of conversations with you!"]
+      },
+      {
+        "tag": "funny",
+        "patterns": ["Are you funny?", "Can you make me laugh?", "Tell me something funny"],
+        "responses": ["I try to keep things light! How about a joke?"]
+      },
+      {
+        "tag": "coding",
+        "patterns": ["Do you code?", "What's your favorite programming language?", "Tell me about coding"],
+        "responses": ["I don't code, but I understand many programming languages!"]
+      },
+      {
+        "tag": "favorite_animal",
+        "patterns": ["What's your favorite animal?", "Tell me about animals", "Do you like animals?"],
+        "responses": ["I think all animals are fascinating in their own ways!"]
+      },
+      {
+        "tag": "books",
+        "patterns": ["Do you read books?", "What's your favorite book?", "Tell me about books"],
+        "responses": ["I don't read books, but I can chat about them if you want!"]
+      },
+      {
+        "tag": "education",
+        "patterns": ["What's your education?", "Are you educated?", "Tell me about your learning"],
+        "responses": ["I'm designed to assist with information, so you could say I'm always learning!"]
+      },
+      {
+        "tag": "dream",
+        "patterns": ["Do you dream?", "Tell me your dreams", "What do you dream about?"],
+        "responses": ["I don't dream, but I think it would be interesting!"]
+      },
+      {
+        "tag": "relationship",
+        "patterns": ["Are you in a relationship?", "Do you have a girlfriend?", "Tell me about your relationships"],
+        "responses": ["I'm here for everyone equally, so no special relationships!"]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's the news?", "Tell me the latest news", "Do you know the news?"],
+        "responses": ["I can't fetch news directly, but you can check online news sources!"]
+      },
+      {
+        "tag": "games",
+        "patterns": ["Do you play games?", "What's your favorite game?", "Tell me about games"],
+        "responses": ["I don't play games, but I can chat about them!"]
+      },
+      {
+        "tag": "programming_help",
+        "patterns": ["Can you help me with programming?", "I need coding help", "Help with programming"],
+        "responses": ["Sure, I can try to help with programming questions!"]
+      },
+      {
+        "tag": "learning",
+        "patterns": ["How can I learn better?", "Tips for learning", "Help me learn"],
+        "responses": ["Consistency and practice are key to learning anything!"]
+      },
+      {
+        "tag": "pets",
+        "patterns": ["Do you have pets?", "What's your favorite pet?", "Tell me about pets"],
+        "responses": ["I don't have pets, but I hear they're wonderful companions!"]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["Do you travel?", "Where do you like to travel?", "Tell me about travel"],
+        "responses": ["I don't travel, but I can help you plan your trips!"]
+      },
+      {
+        "tag": "exercise",
+        "patterns": ["Do you exercise?", "What's your favorite exercise?", "Tell me about exercise"],
+        "responses": ["Exercise is great for health! I suggest regular activity."]
+      },
+      {
+        "tag": "self_driving",
+        "patterns": ["Tell me about self-driving cars", "What do you think of autonomous vehicles?", "Self-driving technology"],
+        "responses": ["Self-driving cars use AI to navigate without human input, and they are becoming more advanced!"]
+      },
+      {
+        "tag": "environment",
+        "patterns": ["What can you tell me about the environment?", "Environmental issues", "Climate change info"],
+        "responses": ["Protecting the environment is crucial. Reducing waste and using renewable energy helps!"]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["Tell me about new technologies", "What's the latest in tech?", "Technology trends"],
+        "responses": ["Technology is always evolving! From AI to space exploration, there's always something new!"]
+      },
+      {
+        "tag": "social_media",
+        "patterns": ["What's your opinion on social media?", "Social media platforms", "Tell me about social networks"],
+        "responses": ["Social media connects people, but it's important to use it wisely and be mindful of privacy."]
+      },
+      {
+        "tag": "health",
+        "patterns": ["Tell me about health", "How to stay healthy?", "Health tips"],
+        "responses": ["Eating balanced meals, exercising regularly, and getting enough sleep are keys to good health."]
+      },
+      {
+        "tag": "space",
+        "patterns": ["Tell me about space", "What's happening in space?", "Space exploration news"],
+        "responses": ["Space is vast and full of mysteries! There are ongoing missions exploring different parts of our solar system."]
+      },
+      {
+        "tag": "art",
+        "patterns": ["Do you like art?", "Tell me about art", "What's your favorite art form?"],
+        "responses": ["Art is a wonderful form of expression, and there are many styles and mediums to explore!"]
+      },
+      {
+        "tag": "history",
+        "patterns": ["Tell me about history", "What happened in history?", "History facts"],
+        "responses": ["History is full of fascinating events and lessons. It's always interesting to learn about the past!"]
+      },
+      {
+        "tag": "internet",
+        "patterns": ["Tell me about the internet", "What's the internet?", "Internet facts"],
+        "responses": ["The internet connects people around the world and is a vast source of information and communication."]
+      },
+      {
+        "tag": "cars",
+        "patterns": ["Tell me about cars", "What's your favorite car?", "Car types"],
+        "responses": ["Cars are vehicles that help us travel quickly. There are many types, including electric and autonomous cars."]
+      },
+      {
+        "tag": "science",
+        "patterns": ["Tell me about science", "What's new in science?", "Science facts"],
+        "responses": ["Science helps us understand the world through observation and experimentation. It's a constantly evolving field!"]
+      },
+      {
+        "tag": "economy",
+        "patterns": ["Tell me about the economy", "What's happening in the economy?", "Economic trends"],
+        "responses": ["The economy refers to the wealth and resources of a region, including production and consumption of goods and services."]
+      },
+      {
+        "tag": "mental_health",
+        "patterns": ["Tell me about mental health", "How to improve mental health?", "Mental health tips"],
+        "responses": ["Mental health is as important as physical health. Practices like mindfulness, therapy, and talking to loved ones can help."]
+      },
+      {
+        "tag": "education_system",
+        "patterns": ["Tell me about the education system", "How does education work?", "Education trends"],
+        "responses": ["Education systems vary worldwide, but they aim to provide knowledge and skills for personal and professional development."]
+      },
+      {
+        "tag": "finance",
+        "patterns": ["Tell me about finance", "How to manage money?", "Finance tips"],
+        "responses": ["Good financial management involves budgeting, saving, and investing wisely to secure your financial future."]
+      },
+      {
+        "tag": "cryptocurrency",
+        "patterns": ["Tell me about cryptocurrency", "What's Bitcoin?", "Crypto trends"],
+        "responses": ["Cryptocurrency is digital money that uses cryptography for security. Bitcoin is the first and most well-known example."]
+      },
+      {
+        "tag": "work_life_balance",
+        "patterns": ["Tell me about work-life balance", "How to balance work and life?", "Work-life balance tips"],
+        "responses": ["Achieving work-life balance involves setting boundaries, prioritizing tasks, and making time for relaxation and hobbies."]
+      },
+      {
+        "tag": "self_improvement",
+        "patterns": ["Tell me about self-improvement", "How to improve myself?", "Self-improvement tips"],
+        "responses": ["Self-improvement is about setting goals, learning new skills, and striving to be the best version of yourself."]
+      },
+      {
+        "tag": "fashion",
+        "patterns": ["Tell me about fashion", "What's trending in fashion?", "Fashion tips"],
+        "responses": ["Fashion is a form of self-expression through clothing and accessories. Trends change frequently, reflecting cultural influences."]
+      },
+      {
+        "tag": "cooking",
+        "patterns": ["Tell me about cooking", "What's your favorite dish?", "Cooking tips"],
+        "responses": ["Cooking is the art of preparing food. It's both a useful skill and a creative outlet!"]
+      },
+      {
+        "tag": "fitness",
+        "patterns": ["Tell me about fitness", "How to stay fit?", "Fitness tips"],
+        "responses": ["Fitness involves regular physical activity and a healthy diet to maintain a strong body and mind."]
+      },
+      {
+        "tag": "technology_advancements",
+        "patterns": ["What's new in technology?", "Tell me about tech advancements", "Latest tech trends"],
+        "responses": ["Technology is rapidly advancing with innovations in AI, robotics, and renewable energy shaping the future."]
+      },
+      {
+        "tag": "machine_learning",
+        "patterns": ["Tell me about machine learning", "What is machine learning?", "How does machine learning work?"],
+        "responses": ["Machine learning is a subset of AI that involves training algorithms to learn from data and make predictions or decisions."]
+      },
+      {
+        "tag": "travel_destinations",
+        "patterns": ["Tell me about travel destinations", "What's a good place to visit?", "Travel recommendations"],
+        "responses": ["There are many beautiful places to visit! Popular destinations include Paris, Bali, and New York City."]
+      },
+      {
+        "tag": "recipes",
+        "patterns": ["Can you share a recipe?", "What's a good recipe?", "Cooking ideas"],
+        "responses": ["There are countless recipes out there! A simple one is spaghetti aglio e olio: pasta with garlic and olive oil."]
+      },
+      {
+        "tag": "relationships",
+        "patterns": ["Tell me about relationships", "How to improve relationships?", "Relationship advice"],
+        "responses": ["Good communication, respect, and trust are key to strong relationships."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["How to stay motivated?", "Give me motivation", "Motivation tips"],
+        "responses": ["Staying motivated involves setting clear goals, celebrating small wins, and maintaining a positive mindset."]
+      },
+      {
+        "tag": "goal_setting",
+        "patterns": ["Tell me about goal setting", "How to set goals?", "Goal setting tips"],
+        "responses": ["Effective goal setting involves making specific, measurable, achievable, relevant, and time-bound (SMART) goals."]
+      },
+      {
+        "tag": "remote_work",
+        "patterns": ["Tell me about remote work", "How to work from home?", "Remote work tips"],
+        "responses": ["Remote work involves working from anywhere outside the traditional office. It's important to have a dedicated workspace and schedule."]
+      },
+      {
+        "tag": "self_care",
+        "patterns": ["Tell me about self-care", "How to practice self-care?", "Self-care tips"],
+        "responses": ["Self-care is about taking time for activities that nurture your well-being, like reading, exercising, or relaxing."]
+      }
+    ]
+  }
+  
