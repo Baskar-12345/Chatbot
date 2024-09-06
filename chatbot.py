@@ -22,9 +22,10 @@ nltk.download('punkt')
 
 import json
 
-# Load JSON data
-with open(r'C:\Users\baska\Downloads\SIH\chatbot\intents.json', 'r') as file:
+# Load JSON data using a relative path
+with open('intents.json', 'r') as file:
     data = json.load(file)
+
 
 # Print the loaded data to verify its structure
 print(type(data))  # Should print <class 'dict'>
